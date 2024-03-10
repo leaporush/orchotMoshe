@@ -1,0 +1,113 @@
+.movie-container{
+    display: flex;
+    padding: 2%;
+    width: 80%;
+    justify-content: space-between;
+
+}
+
+.right-container{
+    padding-left: 3%;
+    padding-right: 3%;
+    width: 32%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.content-video{
+    place-items: center; /* ממרכז את הפריטים אופקית ואנכית */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-image: url("./home.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: 'rgba(255, 255, 255, 0.5)',
+}
+
+.top-slider-image[data-v-50688450] {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+}
+.fa{
+    text-rendering: auto;
+    font-size: inherit;
+    display: inline-block;
+}
+.video{
+    width: 100%;
+    padding: 2%;
+}
+
+video{
+    width: 100%;
+}
+
+.card-text {
+    padding: 18px;
+    border: 2px solid #b1aeae;
+    border-radius: 10px;
+    background-color: #d1caca; /* צבע רקע */
+    box-shadow: 0 0 10px rgba(246, 238, 238, 0.1); /* צל סביב המשבצת */
+    border-radius: 8px; /* פינות מעוגלות */
+    width: 100%; 
+    margin-top: 2%;
+    height: 330px;
+  }
+
+  .textBox {
+   width: 30vw; 
+  }
+
+  .OM-button{
+    width: 12vw;
+    margin-right: 5%;
+    background-color: #6C5C53;
+  }
+
+  .cool-button{
+    width: 95%;
+  }
+
+  .logo{
+    height: auto;
+    width: 100%;
+    justify-content: center;
+    margin-right: 6%;
+    margin-top: -25%
+}
+
+.content{
+    display: flex;
+    width: 100%;
+}
+
+.video-container {
+    position: relative;
+    width: 100%;
+    padding-top: 28%; /* 16:9 Aspect Ratio */
+    margin-right: 2%;
+    margin-left: 2%;
+  }
+  
+  .video-container video {
+    position: absolute;
+    padding: 2%;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-radius: 10px; /* פינות מעוגלות */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* צל מסביב לוידאו */
+    transition: transform 0.3s ease; /* אנימציה כאשר הוא בקליק */
+  }
+  
+  .video-container video:hover {
+    transform: scale(1.05); /* מגדיל את הוידאו כאשר מעביר עליו את העכבר */
+  }
+  
+
+  
